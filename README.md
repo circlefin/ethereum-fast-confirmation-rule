@@ -12,7 +12,7 @@ This reference implementation is based on [this implementation](https://gist.git
 
 This repository contains tooling to evaluate the [fast confirmation rule for Ethereum](https://arxiv.org/pdf/2405.00549). It implements the rule in Python, and contains scripts for gathering live network data and applying the rule to the collected data, under a variety of byzantine thresholds and configurations. The scripts also bubbles up certain interesting scenarios, like if the a confirmed block is ever reorged. 
 
-Data is collected through the Ethereum Beacon Client APIs[Ethereum beacon api](https://ethereum.github.io/beacon-APIs/).
+Data is collected through the [Ethereum Beacon Client APIs](https://ethereum.github.io/beacon-APIs/).
 
 ## File structure
 
