@@ -1,0 +1,14 @@
+# Python
+*.pyc
+__pycache__/
+venv/
+
+# Mac 
+.DS_Store
+
+# Project
+data/
+logs/
+results/
+.env
+
